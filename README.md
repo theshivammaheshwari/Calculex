@@ -81,3 +81,9 @@ keytool -genkeypair -v -storetype PKCS12 -keystore ./android/app/my-upload-key.k
 cd ./android/
 ./gradlew clean
 ./gradlew assembleRelease
+
+# Clone and give it a try!
+git clone https://github.com/yourusername/calculator-suite-app.git
+cd calculator-suite-app
+bun install
+bun start
