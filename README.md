@@ -24,10 +24,11 @@ A comprehensive financial and utility calculator application built with React Na
 - Responsive design for all screen sizes
 - Safe area handling for all devices
 
+## 1
 rm -rf android
 npx expo prebuild --platform android --clean
 
-
+## 2
 MYAPP_UPLOAD_STORE_FILE=my-upload-key.keystore
 
 MYAPP_UPLOAD_KEY_ALIAS=my-key-alias
@@ -77,13 +78,12 @@ org.gradle.daemon=true
 
 signingConfig signingConfigs.release
 
+
+## 3
 keytool -genkeypair -v -storetype PKCS12 -keystore ./android/app/my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+cd ./android/
+
+## 4
 cd ./android/
 ./gradlew clean
 ./gradlew assembleRelease
-
-# Clone and give it a try!
-git clone https://github.com/yourusername/calculator-suite-app.git
-cd calculator-suite-app
-bun install
-bun start
