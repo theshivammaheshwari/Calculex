@@ -8,6 +8,8 @@ A comprehensive financial and utility calculator application built with React Na
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 📸 Screenshots
+![Uploading 1000050721.png…]()
+![Uploading 1000050720.png…]()
 
 <!-- Add your screenshots here -->
 <p align="center">
