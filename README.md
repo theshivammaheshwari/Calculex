@@ -25,10 +25,12 @@ A comprehensive financial and utility calculator application built with React Na
 - Safe area handling for all devices
 
 ## 1
+```bash
 rm -rf android
 npx expo prebuild --platform android --clean
 
 ## 2
+```bash
 MYAPP_UPLOAD_STORE_FILE=my-upload-key.keystore
 
 MYAPP_UPLOAD_KEY_ALIAS=my-key-alias
@@ -85,6 +87,7 @@ keytool -genkeypair -v -storetype PKCS12 -keystore ./android/app/my-upload-key.k
 cd ./android/
 
 ## 4
+```bash
 cd ./android/
 ./gradlew clean
 ./gradlew assembleRelease
