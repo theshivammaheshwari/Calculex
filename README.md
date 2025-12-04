@@ -69,6 +69,6 @@ A comprehensive financial and utility calculator application built with React Na
 git clone https://github.com/yourusername/calculator-suite-app.git
 cd calculator-suite-app
 
-### 2. Install dependencies
+## 2. Install dependencies
 ```bash
 bun install
