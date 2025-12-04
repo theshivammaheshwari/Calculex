@@ -69,6 +69,33 @@ A comprehensive financial and utility calculator application built with React Na
 git clone https://github.com/yourusername/calculator-suite-app.git
 cd calculator-suite-app
 
-## 2. Install dependencies
+
+---
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+### Required Software
+
+| Software | Version | Download Link |
+|----------|---------|---------------|
+| Node.js | >= 22.0.0 | [Download](https://nodejs.org/) |
+| Bun | >= 1.3.0 | [Download](https://bun.sh/) |
+| Android Studio | Latest | [Download](https://developer.android.com/studio) |
+| Java JDK | >= 17 | [Download](https://adoptium.net/) |
+| VS Code | Latest | [Download](https://code.visualstudio.com/) |
+
+### System Requirements
+
+**macOS:**
+- macOS 12.0 or later
+- 8GB RAM minimum (16GB recommended)
+- 20GB free disk space
+- Xcode Command Line Tools
+
+**Environment Variables:**
 ```bash
-bun install
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
