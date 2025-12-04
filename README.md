@@ -80,6 +80,7 @@ signingConfig signingConfigs.release
 
 
 ## 3
+```bash
 keytool -genkeypair -v -storetype PKCS12 -keystore ./android/app/my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
 cd ./android/
 
